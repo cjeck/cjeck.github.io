@@ -1,0 +1,127 @@
+body{
+	background-color: rgba(0,0,0,0.91);
+}
+a.nav-link{
+	padding-left: 0;
+	color: white;
+	letter-spacing: 2px;
+}
+a.nav-link:hover{
+	color:white;
+	font-weight: 800;
+	display: block;	
+}
+.dropdown-menu{
+	background: black;
+}
+.dropdown-item{
+	color:white;
+}
+.bg-dark{
+	background-color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:white;
+	background-color: rgba(200,105,0,0.91);
+}
+h1{
+	padding: 25%;
+	text-align: center;
+	color: rgba(200,105,0,0.91);
+	background:url('http://kb4images.com/images/pic-of-dogs/38218587-pic-of-dogs.jpg');
+	background-size:cover;
+	background-position: center;
+	position:relative;
+	height: 15em;
+}
+.cover{
+	object-fit: contain;
+	padding:0;
+	margin:0;
+}
+#imgpar{
+	height:100%;
+	width:100%;
+	max-height:25em;
+	max-width:25em;
+	float:left;
+	margin:0;
+	border:5px solid black;
+	border-radius:5px;
+}
+.contentHeader{
+	padding:1% 0;
+}
+#contentDiv{
+	margin:3% 0 0 0;
+	padding:2% 1%;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	width:auto;
+	background-color: white;
+}
+#headDiv{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background-color: white;
+	margin:1% 0 3% 0;
+	padding:1% 1%;
+}
+footer{
+	text-align: center;
+}
+.headList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0,0,0,0.91);
+    letter-spacing: 2px;
+}
+.headList li a{
+	display: block;
+	color:white;
+	padding-left: 0.5em;
+}
+.headList li a:hover{
+	color:white;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.91);
+	letter-spacing: 4px;
+	display: block;
+}
+#contentList{
+	border: 1px solid black;
+	text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0,0,0,0.91);
+    letter-spacing: 2px;
+}
+#contentList a:hover{
+	color:white;
+	text-decoration: none;
+	background-color: rgba(200,105,0,0.91);
+	letter-spacing: 4px;
+	padding:0;
+}
+#contentList a{
+	display: block;
+	color:white;
+}
+.conlist{
+	padding:0;
+	display:block;
+}
+.active{
+	background-color: rgba(200,105,0,0.91);
+	color:white;
+	display: block;
+	letter-spacing: 4px;
+	font-weight: 800;
+}
+footer{
+	color: white;
+}
