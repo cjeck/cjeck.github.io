@@ -1,0 +1,82 @@
+body{
+	background-color: rgba(0,0,0,0.91);
+	font-family: 'Calibri', sans-serif;
+}
+a.nav-link{
+	color: white;
+	letter-spacing: 2px;
+	padding-left:0;
+}
+a.nav-link:hover{
+	color:gold;
+	font-weight: 700;
+	display: block;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	letter-spacing: 2px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:white;
+	font-weight: 700;
+	display: block;
+	background-color: rgba(0,150,190,0.88);
+}
+.dropdown-menu{
+	background-color: black;
+}
+.dropdown-item{
+	color:white;
+	letter-spacing: 2px;
+}
+.dropdown-item:hover{
+	color:white;
+	font-weight: 700;
+	display: block;
+	background-color: rgba(0,150,190,0.88);
+}
+.bg-dark{
+	background-color: black !important;
+}
+h1{
+	padding: 5%;
+	text-align: center;
+	color: rgba(0,150,190,0.88);
+	position:relative;
+	margin:0;
+}
+#headDiv{
+	padding:2% 1%;
+	border-bottom:1px solid #afafaf;
+	background-color: white;
+	text-align: center;
+}
+#contentDiv{
+	padding:2% 1%;
+	border-top:1px solid #afafaf;
+	border-bottom:5px solid #afafaf;
+	width:auto;
+	background-color: white;
+}
+.guessButton{
+	border-radius: 5px;
+}
+.guessBox{
+	border-radius: 5px;
+	text-align: center;
+}
+button{
+	border-radius: 5px;
+}
+footer{
+	text-align: center;
+	padding-top:5%;
+	color:white;
+}
+.active{
+	background-color: rgba(0,150,190,0.88);
+	color:white;
+	display: block;
+	letter-spacing: 4px;
+	font-weight: 700;
+}
