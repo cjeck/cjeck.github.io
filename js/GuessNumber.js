@@ -118,7 +118,7 @@ function restartGame(){
 }
 
 function over(){
-	window.location.href = "/index.html";
+	window.location.href = "/index.html#samples";
 	// guessBox.disabled = true;
 	// guessButton.disabled = true;
 	// startOver.parentNode.removeChild(startOver);
