@@ -118,14 +118,15 @@ function restartGame(){
 }
 
 function over(){
-	guessBox.disabled = true;
-	guessButton.disabled = true;
-	startOver.parentNode.removeChild(startOver);
-	exit.parentNode.removeChild(exit);
-	space.parentNode.removeChild(space);
-	guessBox.value = '';
-	var resetParas = document.querySelectorAll('.resultParagraphs p');
-	for (var i = 0 ; i < resetParas.length ; i++) {
-  	resetParas[i].textContent = '';
-	}
+	history.back()
+	// guessBox.disabled = true;
+	// guessButton.disabled = true;
+	// startOver.parentNode.removeChild(startOver);
+	// exit.parentNode.removeChild(exit);
+	// space.parentNode.removeChild(space);
+	// guessBox.value = '';
+	// var resetParas = document.querySelectorAll('.resultParagraphs p');
+	// for (var i = 0 ; i < resetParas.length ; i++) {
+ //  	resetParas[i].textContent = '';
+	// }
 }
