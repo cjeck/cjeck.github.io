@@ -86,7 +86,6 @@ h1{
 	color: rgb(0,150,190);
 	border-radius: 3px;
 	background-color: white;
-	width:100%;
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
@@ -101,7 +100,6 @@ button{
 	color: white;
 	border-radius: 3px;
 	background-color: rgb(0,150,190);
-	width:100%;
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
@@ -111,7 +109,6 @@ button:hover{
 	color: rgb(0,150,190);
 	border-radius: 3px;
 	background-color: white;
-	width:100%;
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
