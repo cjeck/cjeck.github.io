@@ -59,7 +59,7 @@ h1{
 	border-top: 1px solid #afafaf;
 	border-bottom:1px solid #afafaf;
 	background-color: white;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 1%;
 }
 #contentDiv{
@@ -77,7 +77,6 @@ h1{
 	color: white;
 	border-radius: 3px;
 	background-color: rgb(0,150,190);
-	width:100%;
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
