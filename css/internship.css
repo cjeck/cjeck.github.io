@@ -1,12 +1,5 @@
 body{font-family: 'Garamond', 'Times New Roman';}
 .navbar-dark .navbar-nav .nav-link{color: rgba(0,150,190,0.88); letter-spacing: 0.1em;}
-.navbar-dark .navbar-nav .nav-link:hover{
-	color:white;
-	font-weight: 700;
-	display: block;
-	background-color: rgba(0,150,190,0.88);
-	transition: 1s;
-}
 .navbar-dark .navbar-brand{
 	color: rgba(0,150,190,0.88); 
 	letter-spacing: 0.1em;
@@ -17,6 +10,13 @@ body{font-family: 'Garamond', 'Times New Roman';}
 .navbar-dark .navbar-brand:hover{
 	color: rgba(0,150,190,0.88);
 	letter-spacing: 0.1em;
+	transition: 1s;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:white;
+	font-weight: 700;
+	display: block;
+	background-color: rgba(0,150,190,0.88);
 	transition: 1s;
 }
 .navbar-dark .navbar-nav .show>.nav-link{
@@ -54,6 +54,11 @@ h1{
 	letter-spacing: 0.2em;
 	font-weight: 800;
 }
+.greetings{letter-spacing: 0.2em; font-weight: 500;}
+.makesure{
+	display:none;
+	font-size:0.9em;
+}
 #headDiv{
 	padding:2% 1%;
 	border-top: 1px solid #afafaf;
@@ -61,6 +66,48 @@ h1{
 	background-color: white;
 	text-align: left;
 	margin-bottom: 1%;
+}
+.logButton, #surebtn{
+	border:1px solid rgb(0,150,190);
+	color: white;
+	border-radius: 3px;
+	background-color: rgb(0,150,190);
+	width:100%;
+	margin-bottom: 3%;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+.logButton:hover{
+	border:1px solid rgb(0,150,190);
+	color: rgb(0,150,190);
+	border-radius: 3px;
+	background-color: white;
+	width:100%;
+	margin-bottom: 3%;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	transition: 1s;
+}
+#surebtn:hover{
+	border:1px solid rgb(0,150,190);
+	color: rgb(0,150,190);
+	border-radius: 3px;
+	background-color: white;
+	width:100%;
+	margin-bottom: 3%;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	transition: 1s;
+}
+.logButton:disabled{
+	border:none;
+	color: gray;
+	border-radius: 3px;
+	background-color: #efefef;
+	width:100%;
+	margin-bottom: 3%;
+	font-weight: 600;
+	letter-spacing: 0.1em;
 }
 #contentDiv{
 	padding:2% 1%;
@@ -72,17 +119,19 @@ h1{
 	margin-top: 1%;
 	letter-spacing: 0.1em;
 }
-.guessButton{
+#timeind{letter-spacing: 0.3em;}
+.notice{letter-spacing: 0.1em;}
+.setButton{
 	border:1px solid rgb(0,150,190);
 	color: white;
-	border-radius: 3px;
+	border-radius: 5px;
 	background-color: rgb(0,150,190);
 	width:100%;
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
 }
-.guessButton:hover{
+.setButton:hover{
 	border:1px solid rgb(0,150,190);
 	color: rgb(0,150,190);
 	border-radius: 3px;
@@ -93,32 +142,7 @@ h1{
 	letter-spacing: 0.1em;
 	transition: 1s;
 }
-.guessBox{
-	border-radius: 5px;
-	text-align: center;
-}
-button{
-	border:1px solid rgb(0,150,190);
-	color: white;
-	border-radius: 3px;
-	background-color: rgb(0,150,190);
-	width:100%;
-	margin-bottom: 3%;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-}
-button:hover{
-	border:1px solid rgb(0,150,190);
-	color: rgb(0,150,190);
-	border-radius: 3px;
-	background-color: white;
-	width:100%;
-	margin-bottom: 3%;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-	transition: 1s;	
-}
-/*button:disabled{
+.setButton:disabled{
 	border:none;
 	color: gray;
 	border-radius: 3px;
@@ -127,7 +151,24 @@ button:hover{
 	margin-bottom: 3%;
 	font-weight: 600;
 	letter-spacing: 0.1em;
-}*/
+}
+.taskToday, .completedToday{
+	background-color: rgb(0,150,190);
+	color: white;
+	font-weight: 800;
+}
+.task{border-radius: 5px; text-align: center; width: 100%;}
+.time{border-radius:5px; margin:1% 0;}
+.times, .notice{border-right: 1px solid #afafaf;}
+.times, .notice, .logins{
+	text-align: justify;
+	padding:0 1%;
+	margin:0;
+}
+.meridian{margin-left:1%;}
+.taskDiv, .completeDiv{border: 2px solid rgb(0,150,190); padding-left: 0;}
+.scheduler, .taskDone{text-align: left;}
+
 footer{
 	text-align:center;
 	border-top: 1px solid #afafaf;
@@ -142,3 +183,9 @@ footer{
 	letter-spacing: 4px;
 	font-weight: 700;
 }
+#currentTime{font-weight: 800;}
+.taskToday{font-weight: 800;}
+li {list-style-type: none; font-weight: 800;}
+input[type='checkbox']:checked {
+	box-shadow: 0 0 0 3px rgba(0,150,190,0.88);
+	transition: 0.5s;}
