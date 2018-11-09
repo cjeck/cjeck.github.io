@@ -29,7 +29,7 @@ body{font-family: 'Garamond', 'Times New Roman';}
 }
 .navbar-expand-lg .navbar-nav .nav-link{border-right: 1px solid rgba(0,0,0,.15);}
 .navbar{padding:0 1rem;}
-.dropdown-menu{background-color: white;width:200%;}
+.dropdown-menu{background-color: white;letter-spacing: 0.1em;}
 .dropdown-item{
 	color:rgba(0,150,190,0.88);
 	letter-spacing: 0.1em;
@@ -37,7 +37,6 @@ body{font-family: 'Garamond', 'Times New Roman';}
 }
 .dropdown-item:hover{
 	color:white;
-	font-weight: 700;
 	display: block;
 	background-color: rgba(0,150,190,0.88);
 	transition: 1s;
