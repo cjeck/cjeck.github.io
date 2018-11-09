@@ -114,16 +114,6 @@ button:hover{
 	letter-spacing: 0.1em;
 	transition: 1s;	
 }
-/*button:disabled{
-	border:none;
-	color: gray;
-	border-radius: 3px;
-	background-color: #efefef;
-	width:100%;
-	margin-bottom: 3%;
-	font-weight: 600;
-	letter-spacing: 0.1em;
-}*/
 footer{
 	text-align:center;
 	border-top: 1px solid #afafaf;
@@ -138,3 +128,4 @@ footer{
 	letter-spacing: 4px;
 	font-weight: 700;
 }
+li {list-style-type: none; font-weight: 800;}

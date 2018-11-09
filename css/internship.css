@@ -168,7 +168,6 @@ h1{
 .meridian{margin-left:1%;}
 .taskDiv, .completeDiv{border: 2px solid rgb(0,150,190); padding-left: 0;}
 .scheduler, .taskDone{text-align: left;}
-
 footer{
 	text-align:center;
 	border-top: 1px solid #afafaf;

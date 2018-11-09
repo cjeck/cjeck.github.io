@@ -102,3 +102,4 @@ footer{
 	letter-spacing: 4px;
 	font-weight: 700;
 }
+li {list-style-type: none; font-weight: 800;}
