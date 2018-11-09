@@ -62,8 +62,8 @@ function checkNum(){
 		document.getElementById("resultParagraphs").appendChild(startOver);
 		startOver.addEventListener('click',restartGame);
 		
-		space = document.createElement('p')
-		space.textContent = '  ';
+		space = document.createElement('span')
+		space.textContent = ' ';
 		document.getElementById("resultParagraphs").appendChild(space);
 
 		exit = document.createElement('button');
@@ -119,14 +119,4 @@ function restartGame(){
 
 function over(){
 	window.location.href = "/index.html#samples";
-	// guessBox.disabled = true;
-	// guessButton.disabled = true;
-	// startOver.parentNode.removeChild(startOver);
-	// exit.parentNode.removeChild(exit);
-	// space.parentNode.removeChild(space);
-	// guessBox.value = '';
-	// var resetParas = document.querySelectorAll('.resultParagraphs p');
-	// for (var i = 0 ; i < resetParas.length ; i++) {
- //  	resetParas[i].textContent = '';
-	// }
 }
