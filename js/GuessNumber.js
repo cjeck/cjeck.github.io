@@ -87,8 +87,8 @@ function gameOver(){
 	document.getElementById("resultParagraphs").appendChild(startOver);
 	startOver.addEventListener('click',restartGame);
 
-	space = document.createElement('p')
-	space.textContent = '  ';
+	space = document.createElement('span')
+	space.textContent = ' ';
 	document.getElementById("resultParagraphs").appendChild(space);
 
 	exit = document.createElement('button');
