@@ -34,6 +34,7 @@ body{font-family: 'Garamond', 'Times New Roman';}
 	color:rgba(0,150,190,0.88);
 	letter-spacing: 0.1em;
 	transition:1s;
+	width: 100%;
 }
 .dropdown-item:hover{
 	color:white;
