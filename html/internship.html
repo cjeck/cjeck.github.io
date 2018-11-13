@@ -49,18 +49,18 @@
 	</div>
 	<div class="col-md-3 col-sm-6 col-6 times">
 	  <time>
-		<p class="timeNow" id="timeind">Time now: <span id="currentTime"></span></p>
+		<p id="timeNow" class="timeind">Time now: <span id="currentTime"></span></p>
 	  </time>
-	  <p class="usertimein" id="timeind"></p>
-	  <p class="usertimeout" id="timeind"></p>
+	  <p id="usertimein" class="timeind"></p>
+	  <p id="usertimeout" class="timeind"></p>
 	  </div>
 	<div class="col-md-1 col-sm-6 col-6 logins">
 	  <button id="login" class="logButton" onclick="login()">Login</button><br>
 	  <button id="logoff" class="logButton" onclick="rusure()" disabled>Logout</button>
-	  <div class="makesure" id="makesure">
+	  <div class="makesure">
 	    <p id="makesure">Are you sure you want to logout?</p>
-	    <button id="surebtn" onclick="logoff()">Yes</button>
-	    <button id="surebtn" onclick="rusure()">No</button>
+	    <button class="surebtn" onclick="logoff()">Yes</button>
+	    <button class="surebtn" onclick="rusure()">No</button>
 	  </div>
 	</div>
   </div>
@@ -104,14 +104,14 @@
   	</div>
   	<div class="col-md-5 col-sm-6">
 	  <div class="taskDiv">
-  	  <p id="taskPar" class="taskToday">To do(s) today:</p>
-  	  <p id="taskPar" class="scheduler"></p>
+  	  <p class="taskPar" id="taskToday">To do(s) today:</p>
+  	  <p class="taskPar" id="scheduler"></p>
 	  </div>
 	</div>
 	<div class="col-md-5 col-sm-6">
 	  <div class="completeDiv">
-  	  <p id="donePar" class="completedToday">Task(s) completed today:</p>
-  	  <p id="donePar" class="taskDone"></p>
+  	  <p class="donePar" id="completedToday">Task(s) completed today:</p>
+  	  <p class="donePar" id="taskDone"></p>
 	  </div>
 	</div>
   </div>

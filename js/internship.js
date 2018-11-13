@@ -12,17 +12,17 @@ var taskArray, compArray = [];
 var ct = setInterval(cTime, 100);
 
 var notice = document.querySelector(".notice");
-var usertimein = document.querySelector(".usertimein");
-var usertimeout = document.querySelector(".usertimeout");
+var usertimein = document.querySelector("#usertimein");
+var usertimeout = document.querySelector("#usertimeout");
 var greetings = document.querySelector(".greetings")
 
-var taskButton = document.querySelector(".taskButton");
+var taskButton = document.querySelector("#taskButton");
 
-var taskToday = document.querySelector(".taskToday");
-var scheduler = document.querySelector(".scheduler");
+var taskToday = document.querySelector("#taskToday");
+var scheduler = document.querySelector("#scheduler");
 
-var taskDone = document.querySelector(".taskDone");
-var completedToday = document.querySelector(".completedToday");
+var taskDone = document.querySelector("#taskDone");
+var completedToday = document.querySelector("#completedToday");
 
 function login(){
 	task.disabled = false;
@@ -88,7 +88,6 @@ function logoff(){
 	document.getElementById("logoff").disabled = true;
 	done.parentNode.removeChild(done);
 	remove.parentNode.removeChild(remove);
-	
 }
 
 function inandout(){
@@ -177,7 +176,7 @@ function addTask(){
 	}
 
 	listing += "</ul>";
-	document.querySelector(".scheduler").innerHTML = listing;
+	document.querySelector("#scheduler").innerHTML = listing;
 
 	taskCounter++
 
@@ -263,7 +262,7 @@ function rewrite(){
 		}
 	}
 	listing += "</ul>";
-	document.querySelector(".scheduler").innerHTML = listing;
+	document.querySelector("#scheduler").innerHTML = listing;
 
 	dandr++;
 
