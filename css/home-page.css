@@ -48,7 +48,7 @@ body{font-family: 'Garamond', 'Times New Roman';}
 h1{
 	padding: 25%;
 	text-align: center;
-	color: rgba(0,150,190,0.88);
+	color: white;
 	background:url('/images/laptop.jpg');
 	width: 100%;
 	background-size:cover;
