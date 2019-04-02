@@ -8,7 +8,7 @@ function timer(){
 		var x = prompt("Bouncer: You, how old are you?");
 		document.querySelector("button").disabled = true;
 	}
-	if (x < 0 || x === NaN){
+	if (x < 0 || typeof(x) === 'string'){
 		alert("Bouncer: Are you kidding me!? Get out of my sight!");
 		var par = document.createElement("P");
 		par.innerHTML="Leave before I call the cops, weirdo!!";
