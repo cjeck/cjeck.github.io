@@ -1,0 +1,17 @@
+h1{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+body{
+	background: black;
+	font-size: 1em;
+	color: white;
+	vertical-align: center;
+}
+button{
+	top: 20%;
+}
+.wrapper{
+	text-align: center;
+}
